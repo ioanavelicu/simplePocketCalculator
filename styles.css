@@ -1,0 +1,80 @@
+#title {
+    color: rgb(253, 104, 174);
+    text-align: center;
+}
+
+#calculator {
+    width: 16rem;
+    margin: auto;
+    box-shadow: 5px 5px 10px 2px rgb(92, 91, 91);
+}
+
+#calculatorScreen {
+    height: 6rem;
+    background-color: #26364F;
+    border-bottom: 1px solid #6F9BAC;
+    font-size: 3.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+}
+
+#rowOperations, #firstRow, #secondRow, #thirdRow,
+    #fourthRow {
+    display: flex;
+    height: 4rem;
+    border-bottom: 1px solid #6F9BAC;
+    background-color: #388094;
+    color: white;
+    font-weight: 100;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+#one, #two, #three :active {
+    background-color: #192333;
+}
+
+#clear, #delete, #divide, #multiply,
+     #minus, #plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    border-right: 1px solid #6F9BAC;
+}
+
+#one, #two, #three, #four, #five, #six,
+     #seven, #eight, #nine, #zero, #comma {
+    background-color: #26364F;
+    width: 4rem;
+    border-right: 1px solid #6F9BAC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#equal {
+    height: 8.05rem;
+    width: 4rem;
+    background-color: #DA8127;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fourthRow {
+    border-bottom: 0;
+    justify-content:stretch;
+}
+
+#zero {
+    width: 7.95rem;
+}
+
+#comma {
+    width: 3.95rem;
+}
+
